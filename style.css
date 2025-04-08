@@ -61,6 +61,13 @@ body {
     border-radius: 10px;
 }
 
+.conteudo{
+    padding: 70px;
+    border-radius: 15px;
+    width: 100%;
+    background-color: #000000dc;
+}
+
 .infoimg{
     height: 200px;
     width: 746px;
@@ -94,6 +101,11 @@ main {
 
 .poliedro {
     padding: 10px 0 10px 0;
+}
+
+.tabela{
+    text-align: center;
+    width: 100%;
 }
 
 footer {

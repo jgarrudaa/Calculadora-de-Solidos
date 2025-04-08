@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -59,7 +64,7 @@ body {
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400px;
     font-style: normal;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 
@@ -80,18 +85,17 @@ main {
 
 .geral{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.forma{
-    height: 350px;
-    width: 250px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border-radius: 15px;
+    width: 100%;
+    background-color: #000000dc;
 }
 
 .calc {
-    height: 350px;
-    width: 450px;
+    height: 400px;
+    width: 500px;
     background-color: #dddddd;
     display: flex;
     border-radius: 15px;
@@ -110,6 +114,6 @@ footer {
     text-align: center;
     padding: 20px;
     position: relative;
-    min-height: 50px;
+    height: 70px;
     color: #fff;
 }
